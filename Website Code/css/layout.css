@@ -1,0 +1,69 @@
+
+/* Reveal Modal Plugin Styles
+---------------------------------------------------*/
+.reveal-modal-bg {
+   position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #09F;
+	background: rgba(0,0,0,.8);
+	z-index: 100;
+	display: none;
+	top: 0;
+	left: 0;
+}
+.reveal-modal {
+	position: static;
+	visibility:hidden;
+   top:60px;
+	left: 50%;
+	margin-left: -300px;
+   width: 600px;
+	max-width: 600px;
+	background: #fff;
+	position: absolute;
+	z-index: 101;
+	padding: 0;
+
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+.reveal-modal .description-box { padding: 14px 30px; }
+.reveal-modal .description-box h4 {
+   font: 15px/24px montserrat-bold, sans-serif;
+	margin-bottom: 18px;
+   color: #111;
+}
+.reveal-modal .description-box p {
+	font: 13px/24px opensans-regular, sans-serif;
+   color: #A1A1A1;
+   margin-bottom: 18px;
+}
+.reveal-modal .description-box .categories {
+   font: 11px/24px opensans-regular, sans-serif;
+   color: #A1A1A1;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   display: block;
+}
+.reveal-modal .description-box .categories i {
+   margin-right: 8px;
+}
+.reveal-modal .link-box {
+   padding: 18px 36px;
+   background: #111;
+   text-align: left;
+}
+.reveal-modal .link-box h2{
+	color:#FFF;
+}
+.reveal-modal .link-box a {
+   color: #C2DBE7;
+	font: 11px/24px opensans-regular, sans-serif;
+	text-transform: uppercase;
+   letter-spacing: 3px;
+   cursor: pointer;
+}
+.reveal-modal a:hover {	color: #00CCCC; }
+.reveal-modal a.close-reveal-modal { margin-left: 28px; }
